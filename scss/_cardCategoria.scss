@@ -1,0 +1,28 @@
+/*CARD CATEGORIA/SUBCATEGORIA*/
+.containerCategoriaStyle {
+  width: 15rem;
+  padding: 10px 0 5px 0;
+  border: solid 1px $negro;
+  border-radius: 30%;
+  margin: 20px 10px 10px 10px;
+  box-shadow: 5px 5px 5px $negro;
+  &:hover {
+    border: solid 1px $gris;
+    box-shadow: 5px 5px 5px $gris;
+  }
+  a,
+  img {
+    width: 80%;
+  }
+}
+.estiloEnlace {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  color: $negro;
+  font-weight: bold;
+  &:hover {
+    letter-spacing: 3px;
+    color: $negro;
+    transition: all 0.8s;
+  }
+}

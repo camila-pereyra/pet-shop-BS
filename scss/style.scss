@@ -1,0 +1,89 @@
+@import "colores";
+@import "globales";
+@import "cardCategoria";
+@import "cardProducto";
+@import "aside";
+/********************************************************************************************************************/
+/*                                                     GATOS/PERROS                                                 */
+/********************************************************************************************************************/
+/*ANIMACION DE IMG DEL HERO DE GATOS:HTML/PERROS.HTML*/
+.imgHeroSubcategoria {
+  animation: aparecer-por-arriba 1s;
+}
+@keyframes aparecer-por-arriba {
+  0% {
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%);
+    opacity: 1;
+  }
+}
+
+/********************************************************************************************************************/
+/*                                                    PREG FRECUENTES                                               */
+/********************************************************************************************************************/
+.containerWidthText {
+  width: 32rem;
+  .widthImg {
+    width: 45%;
+  }
+}
+#preguntasFrecuentes {
+  h4 {
+    font-family: "Anton", sans-serif;
+    font-size: 1.8rem;
+  }
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    text-transform: initial;
+  }
+}
+/********************************************************************************************************************/
+/*                                                         CONTACTO                                                 */
+/********************************************************************************************************************/
+.sobreNosotrosStyle {
+  p {
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.8;
+    font-size: 1rem;
+    text-transform: initial;
+  }
+}
+.contactoStyle {
+  form {
+    width: 80%;
+    margin: auto;
+    font-family: "Ruda", sans-serif;
+    text-align: justify;
+  }
+}
+
+/********************************************************************************************************************/
+/*                                                      MEDIA QUERIES                                               */
+/********************************************************************************************************************/
+/*INDEX -> ASIDE*/
+@media (min-width: 1200px) {
+  #iconoAsideG1 {
+    width: 100%;
+  }
+  #iconoAsideG2 {
+    width: 100%;
+  }
+  #iconoAsideG3 {
+    width: 100%;
+  }
+  #iconoAsideP1 {
+    width: 100%;
+  }
+  #iconoAsideP2 {
+    width: 100%;
+  }
+  #iconoAsideP3 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,62 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*NAVBAR*/
+.styleNavbar {
+  text-transform: uppercase;
+  font-family: "Acme", sans-serif;
+  font-size: 1rem;
+}
+/*SECTION*/
+section {
+  text-transform: uppercase;
+  text-align: center;
+  h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  h2,
+  h3 {
+    font-family: "Exo", sans-serif;
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+/*FOOTER*/
+footer {
+  text-transform: uppercase;
+  font-family: "Exo", sans-serif;
+  font-size: 1rem;
+  .styleIcono {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: $negro;
+    &:hover {
+      color: $gris;
+    }
+  }
+}
+/*CARRITO*/
+.containerCarrito {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid $negro;
+  background-color: $blanco;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: 100;
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+/*ASIDE*/
+section aside {
+  h4 {
+    font-family: "Exo", sans-serif;
+    font-size: 1.5rem;
+  }
+  img {
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 500ms ease;
+    }
+  }
+  .estiloEnlaceAside {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    color: $negro;
+    font-weight: bold;
+    &:hover {
+      color: $gris;
+    }
+  }
+}

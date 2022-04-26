@@ -1,0 +1,48 @@
+/*CARD PRODUCTOS*/
+.card {
+  width: 18rem;
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 500ms ease;
+  }
+  .card-body {
+    font-family: "Acme", sans-serif;
+    h5 {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+    }
+    .card-title {
+      font-family: "Acme", sans-serif;
+    }
+    .card-text {
+      text-transform: initial;
+    }
+    .btn {
+      border: 1px solid $negro;
+      color: $negro;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $verde;
+        transform: translatex(-100%);
+        transition: all 0.8s;
+        z-index: -1;
+      }
+      &:hover {
+        letter-spacing: 1.25px;
+        color: $blanco;
+        transition: all 0.8s;
+        &::before {
+          transform: translatex(0%);
+        }
+      }
+    }
+  }
+}
