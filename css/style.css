@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+/*VARIABLES*/
+/*ANIMACION DE IMG DEL HERO DE GATOS:HTML/PERROS.HTML*/
+.imgHeroSubcategoria {
+  animation: aparecer-por-arriba 1s;
+}
+
+@keyframes aparecer-por-arriba {
+  0% {
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%);
+    opacity: 1;
+  }
+}
 /*NAVBAR*/
 .styleNavbar {
   text-transform: uppercase;
@@ -31,38 +47,39 @@ section h3 {
   font-size: 2rem;
 }
 
-/*FOOTER*/
-footer {
-  text-transform: uppercase;
-  font-family: "Exo", sans-serif;
-  font-size: 1rem;
+/*SECTION:PREG FRECUENTES*/
+.containerWidthText {
+  width: 32rem;
 }
-footer .styleIcono {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: black;
-}
-footer .styleIcono:hover {
-  color: #999;
+.containerWidthText .widthImg {
+  width: 45%;
 }
 
-/*CARRITO*/
-.containerCarrito {
-  position: fixed;
-  width: 64px;
-  height: 64px;
-  bottom: 20px;
-  right: 20px;
-  padding: 5px;
-  text-align: center;
-  border: 1px solid black;
-  background-color: white;
-  padding: 10px;
-  border-radius: 50px;
-  z-index: 100;
+#preguntasFrecuentes h4 {
+  font-family: "Anton", sans-serif;
+  font-size: 1.8rem;
 }
-.containerCarrito img {
-  width: 100%;
+#preguntasFrecuentes p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-transform: initial;
+}
+
+/*SECTION:CONTACTO*/
+.sobreNosotrosStyle p {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.8;
+  font-size: 1rem;
+  text-transform: initial;
+}
+
+.contactoStyle form {
+  width: 80%;
+  margin: auto;
+  font-family: "Ruda", sans-serif;
+  text-align: justify;
 }
 
 /*CARD CATEGORIA/SUBCATEGORIA*/
@@ -149,6 +166,9 @@ section aside h4 {
   font-family: "Exo", sans-serif;
   font-size: 1.5rem;
 }
+section aside .widthImgAside {
+  width: 45%;
+}
 section aside img:hover {
   transform: scale(1.05);
   transition: transform 500ms ease;
@@ -163,66 +183,41 @@ section aside .estiloEnlaceAside:hover {
   color: #999;
 }
 
-/********************************************************************************************************************/
-/*                                                     GATOS/PERROS                                                 */
-/********************************************************************************************************************/
-/*ANIMACION DE IMG DEL HERO DE GATOS:HTML/PERROS.HTML*/
-.imgHeroSubcategoria {
-  animation: aparecer-por-arriba 1s;
-}
-
-@keyframes aparecer-por-arriba {
-  0% {
-    transform: translateY(-30%);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(0%);
-    opacity: 1;
-  }
-}
-/********************************************************************************************************************/
-/*                                                    PREG FRECUENTES                                               */
-/********************************************************************************************************************/
-.containerWidthText {
-  width: 32rem;
-}
-.containerWidthText .widthImg {
-  width: 45%;
-}
-
-#preguntasFrecuentes h4 {
-  font-family: "Anton", sans-serif;
-  font-size: 1.8rem;
-}
-#preguntasFrecuentes p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  text-transform: initial;
-}
-
-/********************************************************************************************************************/
-/*                                                         CONTACTO                                                 */
-/********************************************************************************************************************/
-.sobreNosotrosStyle p {
-  font-family: "Montserrat", sans-serif;
-  text-align: justify;
-  font-weight: bold;
-  line-height: 1.8;
+/*FOOTER*/
+footer {
+  text-transform: uppercase;
+  font-family: "Exo", sans-serif;
   font-size: 1rem;
-  text-transform: initial;
+}
+footer .styleIcono {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: black;
+}
+footer .styleIcono:hover {
+  color: #999;
 }
 
-.contactoStyle form {
-  width: 80%;
-  margin: auto;
-  font-family: "Ruda", sans-serif;
-  text-align: justify;
+/*CARRITO*/
+.containerCarrito {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: 100;
+}
+.containerCarrito img {
+  width: 100%;
 }
 
-/********************************************************************************************************************/
-/*                                                      MEDIA QUERIES                                               */
-/********************************************************************************************************************/
+/*MEDIA QUERIES*/
 /*INDEX -> ASIDE*/
 @media (min-width: 1200px) {
   #iconoAsideG1 {

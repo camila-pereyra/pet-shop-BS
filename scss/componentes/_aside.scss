@@ -4,6 +4,9 @@ section aside {
     font-family: "Exo", sans-serif;
     font-size: 1.5rem;
   }
+  .widthImgAside {
+    width: 45%;
+  }
   img {
     &:hover {
       transform: scale(1.05);

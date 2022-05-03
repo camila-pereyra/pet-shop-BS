@@ -1,0 +1,18 @@
+/*CARRITO*/
+.containerCarrito {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid $negro;
+  background-color: $blanco;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: 100;
+  img {
+    width: 100%;
+  }
+}

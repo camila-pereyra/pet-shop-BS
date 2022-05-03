@@ -1,0 +1,14 @@
+/*FOOTER*/
+footer {
+  text-transform: uppercase;
+  font-family: "Exo", sans-serif;
+  font-size: 1rem;
+  .styleIcono {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: $negro;
+    &:hover {
+      color: $gris;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/*ANIMACION DE IMG DEL HERO DE GATOS:HTML/PERROS.HTML*/
+.imgHeroSubcategoria {
+  animation: aparecer-por-arriba 1s;
+}
+@keyframes aparecer-por-arriba {
+  0% {
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%);
+    opacity: 1;
+  }
+}

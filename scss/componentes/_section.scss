@@ -1,0 +1,55 @@
+/*SECTION*/
+section {
+  text-transform: uppercase;
+  text-align: center;
+  h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  h2,
+  h3 {
+    font-family: "Exo", sans-serif;
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+/*SECTION:PREG FRECUENTES*/
+.containerWidthText {
+  width: 32rem;
+  .widthImg {
+    width: 45%;
+  }
+}
+#preguntasFrecuentes {
+  h4 {
+    font-family: "Anton", sans-serif;
+    font-size: 1.8rem;
+  }
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    text-transform: initial;
+  }
+}
+/*SECTION:CONTACTO*/
+.sobreNosotrosStyle {
+  p {
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.8;
+    font-size: 1rem;
+    text-transform: initial;
+  }
+}
+.contactoStyle {
+  form {
+    width: 80%;
+    margin: auto;
+    font-family: "Ruda", sans-serif;
+    text-align: justify;
+  }
+}
