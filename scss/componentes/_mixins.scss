@@ -1,0 +1,7 @@
+/*MIXINS*/
+@mixin styleTextPregFrecuentes ($textColor,$fontFamily, $fontSize,$textTransform){
+    color: $textColor;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    text-transform: $textTransform;
+  }

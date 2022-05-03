@@ -24,14 +24,13 @@ section {
   }
 }
 #preguntasFrecuentes {
-  h4 {
-    font-family: "Anton", sans-serif;
-    font-size: 1.8rem;
+  h4 {  
+    $typeLetter1:"Anton", sans-serif;
+    @include styleTextPregFrecuentes($negro,$typeLetter1,1.8rem, uppercase );
   }
   p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    text-transform: initial;
+    $typeLetter2:"Montserrat", sans-serif;
+    @include styleTextPregFrecuentes($negro,$typeLetter2 ,1.2rem ,initial );
   }
 }
 /*SECTION:CONTACTO*/
@@ -51,5 +50,32 @@ section {
     margin: auto;
     font-family: "Ruda", sans-serif;
     text-align: justify;
+    .btn{
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      border: solid 1px $negro;
+      box-shadow: 5px 5px 5px $negro;
+      &:hover{
+        box-shadow: 5px 5px 5px $gris;
+        border: solid 1px $gris;
+      }
+    }
+    .btn--aceptar{
+      @extend .btn;
+      background-color: rgb(105, 232, 105);
+      &:hover{
+        background-color: rgb(54, 235, 54);
+
+      }        
+    }
+    .btn--restablecer{
+      @extend .btn;
+      background-color: rgb(249, 103, 103); 
+      &:hover{
+        background-color: rgb(254, 76, 76); 
+
+      }
+    }
   }
 }

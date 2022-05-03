@@ -2,10 +2,11 @@
 @import "base/colores";
 @import "base/animaciones";
 @import "componentes/navbar";
+@import "componentes/mixins";
 @import "componentes/section";
 @import "componentes/cardCategoria";
 @import "componentes/cardProducto";
 @import "componentes/aside";
 @import "componentes/footer";
 @import "componentes/carrito";
-@import "componentes/mediaqueries";
+@import "base/mediaqueries";

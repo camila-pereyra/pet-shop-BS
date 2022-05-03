@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-/*VARIABLES*/
 /*ANIMACION DE IMG DEL HERO DE GATOS:HTML/PERROS.HTML*/
 .imgHeroSubcategoria {
   animation: aparecer-por-arriba 1s;
@@ -28,6 +27,7 @@
   font-size: 1rem;
 }
 
+/*MIXINS*/
 /*SECTION*/
 section {
   text-transform: uppercase;
@@ -56,10 +56,13 @@ section h3 {
 }
 
 #preguntasFrecuentes h4 {
+  color: black;
   font-family: "Anton", sans-serif;
   font-size: 1.8rem;
+  text-transform: uppercase;
 }
 #preguntasFrecuentes p {
+  color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   text-transform: initial;
@@ -80,6 +83,29 @@ section h3 {
   margin: auto;
   font-family: "Ruda", sans-serif;
   text-align: justify;
+}
+.contactoStyle form .btn, .contactoStyle form .btn--restablecer, .contactoStyle form .btn--aceptar {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  border: solid 1px black;
+  box-shadow: 5px 5px 5px black;
+}
+.contactoStyle form .btn:hover, .contactoStyle form .btn--restablecer:hover, .contactoStyle form .btn--aceptar:hover {
+  box-shadow: 5px 5px 5px #999;
+  border: solid 1px #999;
+}
+.contactoStyle form .btn--aceptar {
+  background-color: rgb(105, 232, 105);
+}
+.contactoStyle form .btn--aceptar:hover {
+  background-color: rgb(54, 235, 54);
+}
+.contactoStyle form .btn--restablecer {
+  background-color: rgb(249, 103, 103);
+}
+.contactoStyle form .btn--restablecer:hover {
+  background-color: rgb(254, 76, 76);
 }
 
 /*CARD CATEGORIA/SUBCATEGORIA*/
@@ -133,14 +159,14 @@ section h3 {
 .card .card-body .card-text {
   text-transform: initial;
 }
-.card .card-body .btn {
+.card .card-body .btn, .card .card-body .contactoStyle form .btn--aceptar, .contactoStyle form .card .card-body .btn--aceptar, .card .card-body .contactoStyle form .btn--restablecer, .contactoStyle form .card .card-body .btn--restablecer {
   border: 1px solid black;
   color: black;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
-.card .card-body .btn::before {
+.card .card-body .btn::before, .card .card-body .contactoStyle form .btn--aceptar::before, .contactoStyle form .card .card-body .btn--aceptar::before, .card .card-body .contactoStyle form .btn--restablecer::before, .contactoStyle form .card .card-body .btn--restablecer::before {
   content: "";
   position: absolute;
   top: 0;
@@ -152,12 +178,12 @@ section h3 {
   transition: all 0.8s;
   z-index: -1;
 }
-.card .card-body .btn:hover {
+.card .card-body .btn:hover, .card .card-body .contactoStyle form .btn--aceptar:hover, .contactoStyle form .card .card-body .btn--aceptar:hover, .card .card-body .contactoStyle form .btn--restablecer:hover, .contactoStyle form .card .card-body .btn--restablecer:hover {
   letter-spacing: 1.25px;
   color: white;
   transition: all 0.8s;
 }
-.card .card-body .btn:hover::before {
+.card .card-body .btn:hover::before, .card .card-body .contactoStyle form .btn--aceptar:hover::before, .contactoStyle form .card .card-body .btn--aceptar:hover::before, .card .card-body .contactoStyle form .btn--restablecer:hover::before, .contactoStyle form .card .card-body .btn--restablecer:hover::before {
   transform: translatex(0%);
 }
 
@@ -194,8 +220,14 @@ footer .styleIcono {
   margin-bottom: 10px;
   color: black;
 }
-footer .styleIcono:hover {
-  color: #999;
+footer #wtsp:hover {
+  color: #01d833;
+}
+footer #face:hover {
+  color: #114ed1;
+}
+footer #ig:hover {
+  color: #c923c1;
 }
 
 /*CARRITO*/
