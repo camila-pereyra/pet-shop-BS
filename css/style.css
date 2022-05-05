@@ -51,7 +51,8 @@ section h3 {
 .containerWidthText {
   width: 32rem;
 }
-.containerWidthText .widthImg {
+
+.widthImg {
   width: 45%;
 }
 

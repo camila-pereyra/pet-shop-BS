@@ -19,10 +19,11 @@ section {
 /*SECTION:PREG FRECUENTES*/
 .containerWidthText {
   width: 32rem;
-  .widthImg {
-    width: 45%;
-  }
 }
+.widthImg {
+    width: 45%;
+}
+
 #preguntasFrecuentes {
   h4 {  
     $typeLetter1:"Anton", sans-serif;
