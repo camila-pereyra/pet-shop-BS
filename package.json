@@ -1,7 +1,7 @@
 {
-  "name": "proyectobs",
+  "name": "petshop",
   "version": "1.0.0",
-  "description": "",
+  "description": "Es un sitio web de un un pet shop que ofrece variedad de productos tanto para perros como para gatos. El cliente podra navegar en el sitio, comprar productos, conocer la ubicacion y contactarse si es que asi lo desea. ",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
