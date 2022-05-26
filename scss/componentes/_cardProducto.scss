@@ -1,6 +1,8 @@
 /*CARD PRODUCTOS*/
 .card {
   width: 18rem;
+  transition: transform 500ms ease;
+
   &:hover {
     transform: scale(1.05);
     transition: transform 500ms ease;

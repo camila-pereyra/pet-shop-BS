@@ -143,6 +143,7 @@ section h3 {
 /*CARD PRODUCTOS*/
 .card {
   width: 18rem;
+  transition: transform 500ms ease;
 }
 .card:hover {
   transform: scale(1.05);
@@ -197,6 +198,9 @@ section aside h4 {
 }
 section aside .widthImgAside {
   width: 45%;
+}
+section aside img {
+  transition: transform 500ms ease;
 }
 section aside img:hover {
   transform: scale(1.05);
