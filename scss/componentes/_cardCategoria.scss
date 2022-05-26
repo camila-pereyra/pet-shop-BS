@@ -20,6 +20,8 @@
   text-decoration: none;
   color: $negro;
   font-weight: bold;
+  transition: all 0.8s;
+
   &:hover {
     letter-spacing: 3px;
     color: $negro;

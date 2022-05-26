@@ -132,6 +132,7 @@ section h3 {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  transition: all 0.8s;
 }
 .estiloEnlace:hover {
   letter-spacing: 3px;
@@ -166,6 +167,7 @@ section h3 {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  transition: all 0.8s;
 }
 .card .card-body .btn::before, .card .card-body .contactoStyle form .btn--aceptar::before, .contactoStyle form .card .card-body .btn--aceptar::before, .card .card-body .contactoStyle form .btn--restablecer::before, .contactoStyle form .card .card-body .btn--restablecer::before {
   content: "";
@@ -175,7 +177,7 @@ section h3 {
   height: 100%;
   width: 100%;
   background-color: rgb(39, 204, 88);
-  transform: translatex(-100%);
+  transform: translatex(-110%);
   transition: all 0.8s;
   z-index: -1;
 }
