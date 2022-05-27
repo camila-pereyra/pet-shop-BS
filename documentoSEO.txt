@@ -1,0 +1,16 @@
+Aplique SEO de la siguiente manera:
+●	Keywords: Mediante la etiqueta meta keywords utilice las palabras claves “m&c, petshop, tienda mascotas, tienda animales, perros, gatos, alimento balanceado, cuchas gatos perros, juguetes gatos perros, accesorios animales”. Las mismas acompañan todas las páginas html. Considero que son palabras claves ya que se utilizarían en un motor de búsqueda. Por otra parte, son descriptivas ya que detallan la marca del petshop, la definición de la tienda, a que rubro pertenece, a quién está dirigido el sitio y los productos que podemos encontrar en todo el sitio web.
+●	Título: Mediante la etiqueta title coloque un título distinto en todas las páginas html que hacen referencia específicamente al contenido que muestra esa página dentro del sitio web. Detallo a continuación páginas y su correspondiente title:
+○	index.html: M&C | PETSHOP
+○	perros.html: M&C | PERROS
+○	gatos.html: M&C | GATOS
+○	alimentosG.html: M&C | GATOS | ALIMENTOS & SNACKS
+○	alimentosP.html: M&C | PERROS | ALIMENTOS & SNACKS
+○	camasG.html: M&C | GATOS | CAMAS & CUCHAS
+○	camasP.html: M&C | PERROS | CAMAS & CUCHAS
+○	juguetesG.html: M&C | GATOS | JUGUETES & ACCESORIOS
+○	juguetesP.html: M&C | PERROS | JUGUETES & ACCESORIOS
+○	preguntasFrecuentes.html: M&C | PREGUNTAS FRECUENTES
+○	contacto.html: M&C | CONTACTO
+●	Descripción:  Mediante la etiqueta meta description, utilizada en todas las páginas del proyecto, coloqué la siguiente descripción: “Encontrá en M&C los mejores productos para tu mascota. Comprá online o en sucursal las primeras marcas en alimentos balanceados, juguetes, camas, cuchas, accesorios y más.” Creo que es una descripción breve y óptima ya que no sólo resume el contenido del sitio web sino que promociona la marca del petshop.
+●	Encabezados: Utilice encabezados h1, h2, h3, h4, h5 y h6 para organizar y jerarquizar el contenido del sitio web. La etiqueta h1, la utilice para nombrar la marca del sitio “M&C”, el h2 para definir la tienda, es decir, encasillar la marca en el rubro “Petshop”. Las etiquetas h3 las utilice para resaltar cada sección, cada contenido importante del sitio, por ejemplo “¿Qué mascotas tenes?”, “¿Qué necesitas para tu perro?”, “¿Qué necesitas para tu gato?”, “Ofertas semanales”,”Productos destacados”, “Sobre nosotros”, “Contacto”. Las etiquetas h4 las utilice en la página de preguntas frecuentes para destacar las preguntas usuales que los clientes pueden hacer/buscar. Por último, las etiquetas h5 y h6 las aplique en el footer para resaltar las redes sociales y la firma “registrada” del petshop.
