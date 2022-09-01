@@ -9,5 +9,7 @@
 - BOOTSTRAP (cdn)
 - MQ Y PSEUDOCLASES
 - SASS (scss)
+- ANIMATE.CSS (library of CSS animations)
+- AOS (Animate On Scroll Library)
 - GIT - GITHUB
 - SEO BASICO 

@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=PT+Sans+Narrow&display=swap"
     rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet" />
   <!-- FONTAWESOME (ICONOS SOCIALES)-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -22,6 +23,8 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <!--Animate css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--Animate On Scroll Library-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!--TITULO-->
   <title>M&C | PREGUNTAS FRECUENTES</title>
   <!--PALABRAS CLAVES-->
@@ -78,10 +81,12 @@
     </section>
     <!--SECTION: PREGUNTAS FRECUENTES-->
     <section class="py-3 bg-light border border-right-0 border-left-0 border-bottom-0" id="preguntasFrecuentes">
+      <h3 class="mt-5 mb-5 display-5 animate__animated animate__backInUp">Despejamos todas tus dudas!!</h3>
       <!--Container que engloba una pregunta frecuente-->
-      <div class="container d-flex justify-content-around align-items-center flex-wrap bg-white border my-5 py-3">
+      <div data-aos="fade-right" data-aos-duration="1000"
+        class="container d-flex justify-content-around align-items-center flex-wrap bg-white border my-5 py-3 ">
         <div class="containerWidthText">
-          <h4 class="animate__animated animate__pulse animate__infinite">
+          <h4>
             ¿Como puedo pagar?
           </h4>
           <p>
@@ -99,10 +104,11 @@
         <img class="widthImg my-2" src="../images/formas-pago.png" alt="formas de pago" />
       </div>
       <!--Container que engloba una pregunta frecuente-->
-      <div class="container d-flex justify-content-around align-items-center flex-wrap bg-white border my-5 py-3">
+      <div data-aos="fade-left" data-aos-duration="1000"
+        class="container d-flex justify-content-around align-items-center flex-wrap bg-white border my-5 py-3">
         <img class="widthImg my-2" src="../images/envio.png" alt="envios" />
         <div class="containerWidthText">
-          <h4 class="animate__animated animate__pulse animate__infinite">
+          <h4>
             ¿Los envíos tienen costo?
           </h4>
           <p>
@@ -116,9 +122,10 @@
         </div>
       </div>
       <!--Container que engloba una pregunta frecuente-->
-      <div class="container d-flex justify-content-around align-items-center flex-wrap bg-white border my-5 py-3">
+      <div data-aos="fade-right" data-aos-duration="1000"
+        class="container d-flex justify-content-around align-items-center flex-wrap bg-white border my-5 py-3">
         <div class="containerWidthText">
-          <h4 class="animate__animated animate__pulse animate__infinite">
+          <h4>
             ¿Cual es el plazo de entrega de mi pedido?
           </h4>
           <p>
@@ -132,10 +139,11 @@
         <img class="widthImg my-2" src="../images/plazoEntrega.png" alt="plazos de entrega" />
       </div>
       <!--Container que engloba una pregunta frecuente-->
-      <div class="container d-flex justify-content-around align-items-center flex-wrap bg-white border my-5 py-3">
+      <div data-aos="fade-left" data-aos-duration="1000"
+        class="container d-flex justify-content-around align-items-center flex-wrap bg-white border my-5 py-3">
         <img class="widthImg my-2" src="../images/cambio.png" alt="cambios y devoluciones" />
         <div class="containerWidthText">
-          <h4 class="animate__animated animate__pulse animate__infinite">
+          <h4>
             Cambios y devoluciones
           </h4>
           <p>
@@ -163,6 +171,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <!--Animate On Scroll Library-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
